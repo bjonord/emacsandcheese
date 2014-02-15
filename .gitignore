@@ -1,0 +1,7 @@
+.cask/
+elpa/
+auto-save-list/
+.saves/*
+\#*
+\.\#*
+*~
