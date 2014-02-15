@@ -2,6 +2,11 @@
 elpa/
 auto-save-list/
 .saves/*
+!.saves/.gitkeep
 \#*
 \.\#*
 *~
+*.cache
+.dict/*
+!.dict/.gitkeep
+projectile-bookmarks*
