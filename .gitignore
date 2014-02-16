@@ -10,3 +10,5 @@ auto-save-list/
 .dict/*
 !.dict/.gitkeep
 projectile-bookmarks*
+.mc-lists.el
+*.dat
