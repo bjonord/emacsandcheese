@@ -17,6 +17,14 @@ As we are both Ruby developers this config will be most useful to programmers wo
 - `C-c m p` - mark previous like this
 - `C-c m l` - mark all like this
 
+### Ruby mode
+
+- `C-c r l` - rspec-compile-on-line
+- `C-c r f` - rspec-compile-file
+- `C-c r p` - rspec-compile-project
+- `C-c r P` - minitest-compile-project
+- `C-c r F` - minitest-compile-file
+
 ### Hippie expand
 
 - `<escape>` - expand in place
