@@ -35,6 +35,12 @@ of FILE in the current directory, suitable for creation"
 		   (file-relative-name (buffer-file-name) (get-closest-gemfile-root))
 		   ) t))
 
+(defun rspec-compile-project ()
+  (interactive)
+  (compile (format "cd %s;bundle exec rspec"
+		   (get-closest-gemfile-root)
+		   ) t))
+
 (defun rspec-compile-on-line ()
   (interactive)
   (compile (format "cd %s;bundle exec rspec %s -l %s"
@@ -43,8 +49,24 @@ of FILE in the current directory, suitable for creation"
 		   (line-number-at-pos)
 		   ) t))
 
+(defun minitest-compile-file ()
+  (interactive)
+  (compile (format "cd %s;bundle exec ruby %s"
+		   (get-closest-gemfile-root)
+		   (file-relative-name (buffer-file-name) (get-closest-gemfile-root))
+		   ) t))
+
+(defun minitest-compile-project ()
+  (interactive)
+  (compile (format "cd %s; bundle exec rake test"
+		   (get-closest-gemfile-root)
+		   ) t))
+
 (add-hook 'enh-ruby-mode-hook
 	  (lambda ()
-	    (local-set-key (kbd "C-c l") 'rspec-compile-on-line)
-	    (local-set-key (kbd "C-c k") 'rspec-compile-file)
+	    (local-set-key (kbd "C-c r l") 'rspec-compile-on-line)
+	    (local-set-key (kbd "C-c r f") 'rspec-compile-file)
+	    (local-set-key (kbd "C-c r p") 'rspec-compile-project)
+	    (local-set-key (kbd "C-c r F") 'minitest-compile-file)
+	    (local-set-key (kbd "C-c r P") 'minitest-compile-project)
 	    ))
