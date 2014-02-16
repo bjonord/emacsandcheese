@@ -3,6 +3,7 @@
 (cask-initialize)
 
 (menu-bar-mode 0)
+(tool-bar-mode -1)
 (setq inhibit-startup-message t)
 (global-auto-revert-mode t)
 (global-linum-mode 1)
