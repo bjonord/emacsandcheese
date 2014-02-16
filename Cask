@@ -1,6 +1,7 @@
 (source melpa)
 
 (depends-on "ack-and-a-half")
+(depends-on "ag")
 (depends-on "ample-zen-theme")
 (depends-on "auto-complete")
 (depends-on "cask")
