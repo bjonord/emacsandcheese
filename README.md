@@ -54,6 +54,7 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 - Configuration for Org mode
 - Swank.js
 - Cleanup the bottom status bar with a nicer look.
+- Magit
 - Highlight and indentation mode?
 
 ## Contribute
