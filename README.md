@@ -44,6 +44,7 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 
 ## TODO
 
+- Undo Tree
 - Robe mode
 - Rainbow mode
 - Yasnippet
