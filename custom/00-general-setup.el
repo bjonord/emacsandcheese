@@ -13,6 +13,14 @@
 (global-linum-mode 1)
 (global-set-key (kbd "M-ö") 'comment-dwim)
 (global-set-key (kbd "<escape>") 'hippie-expand)
+
+;; Do not use tabs for indentation.
+(setq-default indent-tabs-mode nil)
+
+;; Enable whitespace-mode for all buffers.
+(global-whitespace-mode 1)
+(setq whitespace-style '(face tabs trailing empty))
+
 (load-theme 'sanityinc-tomorrow-eighties t)
 
 (setq backup-by-copying t
@@ -21,4 +29,3 @@
       kept-new-versions 6
       kept-old-versions 2
       version-control t)
-
