@@ -44,7 +44,6 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 
 ## TODO
 
-- Remove scrollbars from buffers
 - Undo Tree
 - Robe mode
 - Rainbow mode

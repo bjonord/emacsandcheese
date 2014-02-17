@@ -7,6 +7,7 @@
 (prefer-coding-system 'utf-8)
 (menu-bar-mode 0)
 (tool-bar-mode -1)
+(scroll-bar-mode -1)
 (setq x-select-enable-clipboard t)
 (setq inhibit-startup-message t)
 (global-auto-revert-mode t)
