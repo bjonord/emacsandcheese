@@ -25,6 +25,10 @@ As we are both Ruby developers this config will be most useful to programmers wo
 - `C-c r P` - minitest-compile-project
 - `C-c r F` - minitest-compile-file
 
+### Undo tree
+
+- `C-x u` - view undo-tree
+
 ### Hippie expand
 
 - `<escape>` - expand in place
@@ -44,7 +48,6 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 
 ## TODO
 
-- Undo Tree
 - Robe mode
 - Rainbow mode
 - Yasnippet

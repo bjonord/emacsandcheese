@@ -17,3 +17,4 @@
 (depends-on "projectile")
 (depends-on "s")
 (depends-on "smartparens")
+(depends-on "undo-tree")

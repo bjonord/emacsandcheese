@@ -14,6 +14,7 @@
 (global-linum-mode 1)
 (global-set-key (kbd "M-ö") 'comment-dwim)
 (global-set-key (kbd "<escape>") 'hippie-expand)
+(global-undo-tree-mode)
 
 ;; Do not use tabs for indentation.
 (setq-default indent-tabs-mode nil)
