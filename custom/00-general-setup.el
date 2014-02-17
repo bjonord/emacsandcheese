@@ -18,7 +18,8 @@
 (setq-default indent-tabs-mode nil)
 
 ;; Enable whitespace-mode for all buffers.
-(setq global-whitespace-mode 1)
+(global-whitespace-mode 1)
+(setq whitespace-style '(face tabs trailing empty))
 
 (load-theme 'sanityinc-tomorrow-eighties t)
 
