@@ -57,6 +57,7 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 - Swank.js
 - Cleanup the bottom status bar with a nicer look.
 - Magit
+- HAML mode
 - Highlight and indentation mode?
 
 ## Contribute
