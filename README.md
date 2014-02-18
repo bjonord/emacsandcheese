@@ -49,6 +49,7 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 - Robe mode
 - Rainbow mode
 - Yasnippet
+- Rubocop?
 - Flyspell
 - Textmate.el
 - WebMode
