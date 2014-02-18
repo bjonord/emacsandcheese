@@ -7,12 +7,14 @@
 (prefer-coding-system 'utf-8)
 (menu-bar-mode 0)
 (tool-bar-mode -1)
+(scroll-bar-mode -1)
 (setq x-select-enable-clipboard t)
 (setq inhibit-startup-message t)
 (global-auto-revert-mode t)
 (global-linum-mode 1)
 (global-set-key (kbd "M-ö") 'comment-dwim)
 (global-set-key (kbd "<escape>") 'hippie-expand)
+(global-undo-tree-mode)
 
 ;; Do not use tabs for indentation.
 (setq-default indent-tabs-mode nil)
