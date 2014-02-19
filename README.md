@@ -38,7 +38,7 @@ Keyboard shortcuts for web mode can be found here:
 
 - `<escape>` - expand in place
 
-### Scroll Other Windo
+### Scroll Other Window
 
 - `C-M-v` - Scroll other window up
 - `C-M-m` - Scroll other window down
