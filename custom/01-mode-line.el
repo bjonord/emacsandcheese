@@ -5,8 +5,10 @@
        '(:eval (propertize "%b " 'face 'font-lock-keyword-face
                            'help-echo (buffer-file-name)))
 
+       '(:eval (propertize vc-mode 'face 'font-lock-type-face))
+
        ;; line and column
-       "(" ;; '%02' to set to 2 chars at least; prevents flickering
+       " (" ;; '%02' to set to 2 chars at least; prevents flickering
        (propertize "%02l" 'face 'font-lock-type-face) ","
        (propertize "%02c" 'face 'font-lock-type-face) "|"
        (propertize "%F"   'face 'font-lock-type-face)
