@@ -18,3 +18,4 @@
 (depends-on "s")
 (depends-on "smartparens")
 (depends-on "undo-tree")
+(depends-on "web-mode")

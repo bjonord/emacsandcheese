@@ -29,6 +29,11 @@ As we are both Ruby developers this config will be most useful to programmers wo
 
 - `C-x u` - view undo-tree
 
+### Web mode
+
+Keyboard shortcuts for web mode can be found here:
+[WebMode](http://web-mode.org/)
+
 ### Hippie expand
 
 - `<escape>` - expand in place
@@ -54,7 +59,6 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 - Rubocop?
 - Flyspell
 - Textmate.el
-- WebMode
 - Markdown mode
 - Configuration for Org mode
 - Swank.js
