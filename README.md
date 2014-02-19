@@ -64,6 +64,8 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 - Cleanup the bottom status bar with a nicer look.
 - Magit
 - HAML mode
+- YAML mode
+- Coffescript mode
 - Highlight and indentation mode?
 
 ## Contribute
