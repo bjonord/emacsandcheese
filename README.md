@@ -15,7 +15,7 @@ As we are both Ruby developers this config will be most useful to programmers wo
 - `C-c m l` - multiple cursors edit line
 - `C-c m n` - mark next like this
 - `C-c m p` - mark previous like this
-- `C-c m l` - mark all like this
+- `C-c m a` - mark all like this
 
 ### Ruby mode
 
