@@ -38,6 +38,11 @@ Keyboard shortcuts for web mode can be found here:
 
 - `<escape>` - expand in place
 
+### Scroll Other Window
+
+- `C-M-v` - Scroll other window up
+- `C-M-m` - Scroll other window down
+
 ## Themes
 
 The configuration comes packagede with the following themes and theme collections:
