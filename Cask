@@ -12,6 +12,7 @@
 (depends-on "epl")
 (depends-on "f")
 (depends-on "grizzl")
+(depends-on "markdown-mode")
 (depends-on "multiple-cursors")
 (depends-on "pallet")
 (depends-on "projectile")
