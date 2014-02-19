@@ -59,7 +59,6 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 - Rubocop?
 - Flyspell
 - Textmate.el
-- Markdown mode
 - Configuration for Org mode
 - Swank.js
 - Cleanup the bottom status bar with a nicer look.
