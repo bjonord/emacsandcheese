@@ -3,6 +3,8 @@ elpa/
 auto-save-list/
 .saves/*
 !.saves/.gitkeep
+local_config/*
+!local_config/.gitkeep
 \#*
 \.\#*
 *~
@@ -12,3 +14,4 @@ auto-save-list/
 projectile-bookmarks*
 .mc-lists.el
 *.dat
+session.*

@@ -48,6 +48,11 @@ Keyboard shortcuts for coffee mode can be found here:
 - `C-M-v` - Scroll other window up
 - `C-M-m` - Scroll other window down
 
+## Local changes
+
+When you add your own local changes that you do not really want to add to the repo, these should go in the local_config directory.
+`./local_config/<a name of a file>`
+
 ## Themes
 
 The configuration comes packagede with the following themes and theme collections:
@@ -81,6 +86,6 @@ If you would like to contribute feel free.
 
 Follow the following process:
 
-- fork the repo
+- fork the repo 
 - add your feature in a new branch
 - create a pull request
