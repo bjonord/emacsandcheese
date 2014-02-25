@@ -34,6 +34,11 @@ As we are both Ruby developers this config will be most useful to programmers wo
 Keyboard shortcuts for web mode can be found here:
 [WebMode](http://web-mode.org/)
 
+### Coffee mode
+
+Keyboard shortcuts for coffee mode can be found here:
+[CoffeeMode](https://github.com/defunkt/coffee-mode#default-key-bindings)
+
 ### Hippie expand
 
 - `<escape>` - expand in place
@@ -42,6 +47,11 @@ Keyboard shortcuts for web mode can be found here:
 
 - `C-M-v` - Scroll other window up
 - `C-M-m` - Scroll other window down
+
+## Local changes
+
+When you add your own local changes that you do not really want to add to the repo, these should go in the local_config directory.
+`./local_config/<a name of a file>`
 
 ## Themes
 
@@ -68,9 +78,6 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 - Swank.js
 - Cleanup the bottom status bar with a nicer look.
 - Magit
-- HAML mode
-- YAML mode
-- Coffescript mode
 - Highlight and indentation mode?
 
 ## Contribute
