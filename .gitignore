@@ -5,6 +5,9 @@ auto-save-list/
 !.saves/.gitkeep
 local_config/*
 !local_config/.gitkeep
+.custom-set/*
+!.custom-set/.gitkeep
+snippets/
 \#*
 \.\#*
 *~

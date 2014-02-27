@@ -1,3 +1,15 @@
+;; Store away the custom-set-* variables in a file called settings.
+;; Creates the file if it doesn't exist.
+(defvar custom-set-file (expand-file-name ".custom-set/settings.el" user-emacs-directory))
+(if (file-exists-p custom-set-file)
+    nil
+  (write-region
+   ";; DON'T MODIFY THIS FILE UNLESS YOU KNOW THINGS" nil custom-set-file))
+
+(when (file-exists-p custom-set-file)
+  (setq custom-file custom-set-file)
+  (load custom-file))
+
 ;; To get rid of Weird color escape sequences in Emacs.
 ;; Instruct Emacs to use emacs term-info not system term info
 ;; http://stackoverflow.com/questions/8918910/weird-character-zsh-in-emacs-terminal

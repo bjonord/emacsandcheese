@@ -1,8 +1,8 @@
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 
-(defvar custom-load-path (expand-file-name "~/.emacs.d/enc_config"))
-(defvar local-load-path (expand-file-name "~/.emacs.d/local_config"))
+(defvar custom-load-path (expand-file-name "enc_config" user-emacs-directory))
+(defvar local-load-path (expand-file-name "local_config" user-emacs-directory))
 (add-to-list 'load-path custom-load-path)
 (add-to-list 'load-path local-load-path)
 
