@@ -14,6 +14,7 @@
 (depends-on "f")
 (depends-on "grizzl")
 (depends-on "haml-mode")
+(depends-on "magit")
 (depends-on "markdown-mode")
 (depends-on "multiple-cursors")
 (depends-on "pallet")

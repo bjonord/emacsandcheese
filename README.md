@@ -8,6 +8,20 @@ The initial commits where made while pairing, as time passes more additions will
 
 As we are both Ruby developers this config will be most useful to programmers working with said language and environment.
 
+## Getting started
+
+First clone this repo to a location on your system(see below for alternatives).
+
+If you do not feel like keeping this in a separate place but want it in the same place as where you would keep your usual `.emacs.d` directory, then do the following in your home directory `git clone https://github.com/bjoska/emacsandcheese.git .emacs.d` or clone it to a separate directory by running `git clone https://github.com/bjoska/emacsandcheese.git` and then symlink it like this `ln -snf <this directory> ~/.emacs.d/`.
+
+After this bit is done make sure you have Cask(see below for more instructions on this) installed and then enter the directory and run `cask install`. You should now have everything needed installed. Start emacs as you would normally and all the dependencies should be in place.
+
+Have fun and let us know if you run into any issues!
+
+## Dependencies
+
+This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and [Cask](https://github.com/cask/cask) to bundle the needed packages.
+
 ## Specific Keyboard Shortcuts
 
 ### Multiple cursors
@@ -48,6 +62,10 @@ Keyboard shortcuts for coffee mode can be found here:
 - `C-M-v` - Scroll other window up
 - `C-M-m` - Scroll other window down
 
+### Magit
+
+More information can be found [here](https://github.com/magit/magit)
+
 ## Local changes
 
 When you add your own local changes that you do not really want to add to the repo, these should go in the local_config directory.
@@ -62,10 +80,6 @@ The configuration comes packagede with the following themes and theme collection
 
 To pick theme just alter the `load-theme` line in `./custom/00-general-setup.el`
 
-## Dependencies
-
-This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and [Cask](https://github.com/cask/cask) to bundle the needed packages.
-
 ## TODO
 
 - Robe mode
@@ -75,7 +89,6 @@ This configuration utilizes [Pallet](https://github.com/rdallasgray/pallet) and 
 - Configuration for Org mode
 - Swank.js
 - Cleanup the bottom status bar with a nicer look.
-- Magit
 
 ## Contribute
 
