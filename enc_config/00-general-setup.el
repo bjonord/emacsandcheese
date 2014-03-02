@@ -28,6 +28,9 @@
 (global-set-key (kbd "<escape>") 'hippie-expand)
 (global-undo-tree-mode)
 
+(put 'dired-find-alternate-file 'disabled nil)
+(setq-default truncate-lines t)
+
 ;; Do not use tabs for indentation.
 (setq-default indent-tabs-mode nil)
 
