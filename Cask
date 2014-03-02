@@ -20,6 +20,8 @@
 (depends-on "pallet")
 (depends-on "projectile")
 (depends-on "s")
+(depends-on "sass-mode")
+(depends-on "scss-mode")
 (depends-on "smartparens")
 (depends-on "undo-tree")
 (depends-on "web-mode")
