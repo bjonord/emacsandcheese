@@ -47,5 +47,8 @@
       kept-old-versions 2
       version-control t)
 
+(setq auto-save-file-name-transforms
+      `((".*", temporary-file-directory t)))
+
 (add-hook 'text-mode-hook 'flyspell-mode)
 (add-hook 'prog-mode-hook 'flyspell-prog-mode)
