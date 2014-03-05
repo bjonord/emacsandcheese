@@ -82,6 +82,7 @@ To pick theme just alter the `load-theme` line in `./custom/00-general-setup.el`
 
 ## TODO
 
+- [Helm](https://github.com/emacs-helm/helm) (and [Helm-Projectile](https://github.com/bbatsov/projectile#helm-integration))
 - Robe mode
 - Rainbow mode
 - Rubocop?
@@ -96,6 +97,6 @@ If you would like to contribute feel free.
 
 Follow the following process:
 
-- fork the repo 
+- fork the repo
 - add your feature in a new branch
 - create a pull request
