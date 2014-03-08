@@ -66,6 +66,15 @@ Keyboard shortcuts for coffee mode can be found here:
 
 More information can be found [here](https://github.com/magit/magit)
 
+### Deft Notes
+
+Deft mode will use org-mode as the default mode.
+
+All notes will be stored in `<your-emacs-dir>/deft-notes/`, you would
+probably want to change this to something that syncs between systems.
+You can change this setting by setting the following in your local configuration:
+`(setq deft-directory "~/your/notes/directory/")`
+
 ## Local changes
 
 When you add your own local changes that you do not really want to add to the repo, these should go in the local_config directory.

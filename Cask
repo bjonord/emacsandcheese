@@ -9,6 +9,7 @@
 (depends-on "color-theme-sanityinc-solarized")
 (depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "dash")
+(depends-on "deft")
 (depends-on "enh-ruby-mode")
 (depends-on "epl")
 (depends-on "f")
