@@ -81,6 +81,10 @@ Keyboard shortcuts for coffee mode can be found here:
 - `C-c C-i` - Indent selected region or whole buffer
 - `C-c C-n` - Indent and clean the current buffer
 
+### Org mode
+
+Configuration to enable windmove added.
+
 ### Magit
 
 More information can be found [here](https://github.com/magit/magit)
