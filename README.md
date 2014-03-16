@@ -98,6 +98,8 @@ probably want to change this to something that syncs between systems.
 You can change this setting by setting the following in your local configuration:
 `(setq deft-directory "~/your/notes/directory/")`
 
+- `f8` - activate deft
+
 ## Local changes
 
 When you add your own local changes that you do not really want to add to the repo, these should go in the local_config directory.
