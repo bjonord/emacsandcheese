@@ -4,6 +4,18 @@ This `emacs.d` was created by @piisalie and @bjoska as a joint venture after dis
 
 The initial commits where made while pairing, as time passes more additions will be made through pull requests.
 
+## Index
+
+- [Index](#index)
+- [Target users](#target-users)
+- [Getting started](#getting-started)
+- [Dependencies](#dependencies)
+- [Specific Keyboard Shortcuts](#specific-keyboard-shortcuts)
+- [Local changes](#local-changes)
+- [Themes](#themes)
+- [TODO](#todo)
+- [Contribute](#contribute)
+
 ## Target users
 
 As we are both Ruby developers this config will be most useful to programmers working with said language and environment.
@@ -112,7 +124,13 @@ The configuration comes packagede with the following themes and theme collection
 - sanityinc-solarized - includes dark and light (not terminal mode friendly)
 - ample-zen - a simple theme similar to sanityinc-tomorrow-eighties
 
-To pick theme just alter the `load-theme` line in `./custom/00-general-setup.el`
+To change theme add a `load-theme` to your own personal config.
+
+**Example**
+
+```elisp
+(load-theme 'sanityinc-solarized-dark t)
+```
 
 ## TODO
 

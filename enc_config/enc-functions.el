@@ -16,14 +16,12 @@
 (defun enc-scroll-other-window-up ()
   "Scroll other window two lines up."
   (interactive)
-  (scroll-other-window -2)
-)
+  (scroll-other-window -2))
 
 (defun enc-scroll-other-window-down ()
   "Scroll other window two lines down."
   (interactive)
-  (scroll-other-window 2)
-)
+  (scroll-other-window 2))
 
 (defun enc-duck-d-g ()
   "DuckDuck the selected region if any, display a query prompt otherwise."
@@ -31,7 +29,8 @@
   (browse-url
    (concat
     "https://www.duckduckgo.com/?q="
-    (url-hexify-string (if mark-active
+    (url-hexify-string
+     (if mark-active
          (buffer-substring (region-beginning) (region-end))
        (read-string "DuckDuckGo: "))))))
 
