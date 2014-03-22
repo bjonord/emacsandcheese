@@ -1,3 +1,4 @@
+(source gnu)
 (source melpa)
 
 (depends-on "ack-and-a-half")
@@ -15,11 +16,13 @@
 (depends-on "f")
 (depends-on "grizzl")
 (depends-on "haml-mode")
+(depends-on "highlight-indentation")
 (depends-on "magit")
 (depends-on "markdown-mode")
 (depends-on "multiple-cursors")
 (depends-on "pallet")
 (depends-on "projectile")
+(depends-on "rainbow-mode")
 (depends-on "s")
 (depends-on "sass-mode")
 (depends-on "scss-mode")
@@ -28,4 +31,3 @@
 (depends-on "web-mode")
 (depends-on "yaml-mode")
 (depends-on "yasnippet")
-(depends-on "highlight-indentation")
