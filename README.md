@@ -136,7 +136,6 @@ To change theme add a `load-theme` to your own personal config.
 
 - [Helm](https://github.com/emacs-helm/helm) (and [Helm-Projectile](https://github.com/bbatsov/projectile#helm-integration))
 - Robe mode
-- Rainbow mode
 - Rubocop?
 - Textmate.el
 - Configuration for Org mode
