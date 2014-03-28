@@ -11,6 +11,8 @@
 (depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "dash")
 (depends-on "deft")
+(depends-on "elixir-mix")
+(depends-on "elixir-mode")
 (depends-on "enh-ruby-mode")
 (depends-on "epl")
 (depends-on "f")
