@@ -18,3 +18,7 @@
 ;; Quick commands to indent and clean.
 (global-set-key (kbd "C-c C-i") 'enc-indent-region-or-buffer)
 (global-set-key (kbd "C-c C-n") 'enc-clean-buffer)
+
+;; Keybinding for query-replace-regexp
+;; got tired of mashing the keyboard with `C-M %'
+(global-set-key (kbd "C-c C-r") 'query-replace-regexp)
