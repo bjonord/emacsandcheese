@@ -15,6 +15,9 @@
 ;; Query the current selection in Duck Duck Go
 (global-set-key (kbd "C-c C-s") 'enc-duck-d-g)
 
+;; Query the current selection in Omniref
+(global-set-key (kbd "C-c C-o") 'enc-omniref)
+
 ;; Quick commands to indent and clean.
 (global-set-key (kbd "C-c C-i") 'enc-indent-region-or-buffer)
 (global-set-key (kbd "C-c C-n") 'enc-clean-buffer)
