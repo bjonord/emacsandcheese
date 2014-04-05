@@ -34,6 +34,17 @@
          (buffer-substring (region-beginning) (region-end))
        (read-string "DuckDuckGo: "))))))
 
+(defun enc-omniref ()
+  "Omniref the selected region if any, display a query prompt otherwise."
+  (interactive)
+  (browse-url
+   (concat
+    "http://www.omniref.com/?q="
+    (url-hexify-string
+     (if mark-active
+         (buffer-substring (region-beginning) (region-end))
+       (read-string "omniref: "))))))
+
 (defun enc-indent-buffer ()
   "Indent the currently visited buffer."
   (interactive)
