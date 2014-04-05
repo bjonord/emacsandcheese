@@ -88,6 +88,10 @@ Keyboard shortcuts for coffee mode can be found here:
 
 - `C-c C-s` - The current region or query
 
+### Omniref
+
+- `C-c C-o` - The current region or query
+
 ### Indentation and cleaning
 
 - `C-c C-i` - Indent selected region or whole buffer
