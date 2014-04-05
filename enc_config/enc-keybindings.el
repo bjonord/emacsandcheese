@@ -21,4 +21,4 @@
 
 ;; Keybinding for query-replace-regexp
 ;; got tired of mashing the keyboard with `C-M %'
-(global-set-key (kbd "C-c C-r") 'query-replace-regexp)
+(global-set-key (kbd "C-c C-t") 'query-replace-regexp)
