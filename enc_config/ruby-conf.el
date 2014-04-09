@@ -71,3 +71,5 @@ of FILE in the current directory, suitable for creation"
             (local-set-key (kbd "C-c r P") 'minitest-compile-project)
             (flyspell-prog-mode)
             ))
+
+(add-hook 'enh-ruby-mode-hook 'yard-mode)
