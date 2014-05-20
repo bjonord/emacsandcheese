@@ -33,6 +33,7 @@
 (depends-on "scss-mode")
 (depends-on "smartparens")
 (depends-on "undo-tree")
+(depends-on "vlf")
 (depends-on "web-mode")
 (depends-on "yaml-mode")
 (depends-on "yard-mode")
