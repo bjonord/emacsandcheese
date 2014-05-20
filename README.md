@@ -116,6 +116,27 @@ You can change this setting by setting the following in your local configuration
 
 - `f8` - activate deft
 
+### VLF-mode
+
+More information can be found [here](https://github.com/m00natic/vlfi)
+
+Notable key commands:
+
+- `C-c C-v +` - Increase batch size by a factor of 2
+- `C-c C-v -` - Decrease batch size by a factor of 2
+- `C-c C-v n` - move batch by batch(`C-v` works as well)
+- `C-c C-v p` - move batch by batch(M-v` works as well)
+- `C-c C-v SPC` - display batch starting from current point
+- `C-c C-v [` - beginning of file
+- `C-c C-v ]` - end of file
+- `C-c C-v s` - search forward
+- `C-c C-v r` - search backwards
+
+Notable commands:
+
+- `M-x vlf-set-batch-size` - To set the batch size to process.
+
+
 ## Local changes
 
 When you add your own local changes that you do not really want to add to the repo, these should go in the local_config directory.
