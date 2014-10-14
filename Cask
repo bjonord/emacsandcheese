@@ -38,3 +38,4 @@
 (depends-on "yaml-mode")
 (depends-on "yard-mode")
 (depends-on "yasnippet")
+(depends-on "find-file-in-project")
