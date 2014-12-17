@@ -1,5 +1,5 @@
 (setq yas-snippet-dirs
-      (expand-file-name "snippets" user-emacs-directory)
+      '("~/.emacs.d/snippets") ;; used to be `(expand-file-name "snippets" user-emacs-directory)'
       )
 
 (yas-global-mode t)

@@ -32,6 +32,7 @@
 (depends-on "sass-mode")
 (depends-on "scss-mode")
 (depends-on "smartparens")
+(depends-on "tangotango-theme")
 (depends-on "undo-tree")
 (depends-on "vlf")
 (depends-on "web-mode")
