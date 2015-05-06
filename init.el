@@ -13,3 +13,4 @@
 (when (file-exists-p local-load-path)
   (message "Loading local configuration files in %s..." local-load-path)
   (mapc 'load (directory-files local-load-path 't "^[^#].*el$")))
+(put 'downcase-region 'disabled nil)

@@ -13,6 +13,7 @@ snippets/
 *~
 *.cache
 .dict/*
+request/
 !.dict/.gitkeep
 projectile-bookmarks*
 .mc-lists.el

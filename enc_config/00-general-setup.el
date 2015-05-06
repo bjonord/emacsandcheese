@@ -66,4 +66,4 @@
 (define-key global-map [(control ?q)] 'isearchb-activate)
 
 ;; Add VLF(Very Large File)-mode as a choice when opening large files
-(require 'vlf-integrate)
+(require 'vlf-setup)
