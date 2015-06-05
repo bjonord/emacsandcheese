@@ -67,3 +67,7 @@
 
 ;; Add VLF(Very Large File)-mode as a choice when opening large files
 (require 'vlf-setup)
+
+;; Set to prevent Magit from telling me that something has changed as
+;; I have seen it.
+(setq magit-last-seen-setup-instructions "1.4.0")
